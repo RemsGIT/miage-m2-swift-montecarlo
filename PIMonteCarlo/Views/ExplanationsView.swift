@@ -32,7 +32,7 @@ struct ExplanationsView: View {
                     .font(.headline)
                 
                 Text("Lorsque vous avez lancer plusieurs calculs, l'onglet statistiques (\(Image(systemName: "chart.bar"))) vous permet de comparer les résultats obtenus pour chaque nombre de points.")
-                Text("En haut, vous avez la meilleure approximation de PI obtenue avec son nombre de points. Et en dessous, un graphique qui montre le meilleur résultat pour chaque nombre de points testé. ")
+                Text("En haut, vous avez la meilleure approximation de PI obtenue avec son nombre de points. Et en dessous, un graphique qui montre le meilleur résultat pour chaque nombre de points testé. La ligne rouge représente π. ")
                 Text("Enfin, vous avez la possibilité de réinitialiser les statistiques avec le bouton '\(Image(systemName: "trash")) Supprimer tous les résultats' ")
                 
                 Text("Architecture")
