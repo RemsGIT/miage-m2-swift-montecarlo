@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A837C7CF2B3062C000E0B988 /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837C7CE2B3062C000E0B988 /* PointsView.swift */; };
+		A86248D82B320C0700B75703 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86248D72B320C0700B75703 /* DataManager.swift */; };
+		A86248DD2B320F8C00B75703 /* CoreDataPi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A86248DB2B320F8C00B75703 /* CoreDataPi.xcdatamodeld */; };
+		A86248EB2B32146900B75703 /* BestResultItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86248EA2B32146900B75703 /* BestResultItem+CoreDataClass.swift */; };
+		A86248ED2B32148F00B75703 /* BestResultItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86248EC2B32148F00B75703 /* BestResultItem+CoreDataProperties.swift */; };
+		A8AB28162B30B75100DB97AF /* MonteCarloPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AB28152B30B75100DB97AF /* MonteCarloPoint.swift */; };
+		A8AB28192B30D16B00DB97AF /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AB28182B30D16B00DB97AF /* BottomBar.swift */; };
+		A8AB281B2B3186F900DB97AF /* MonteCarloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AB281A2B3186F900DB97AF /* MonteCarloView.swift */; };
+		A8BE15B12B4C028F0084626B /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE15B02B4C028F0084626B /* StatisticsView.swift */; };
+		A8BE15B32B4C02B00084626B /* ExplanationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE15B22B4C02B00084626B /* ExplanationsView.swift */; };
 		A8CF852B2B2F009600184FED /* PIMonteCarloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF852A2B2F009600184FED /* PIMonteCarloApp.swift */; };
 		A8CF852D2B2F009600184FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF852C2B2F009600184FED /* ContentView.swift */; };
-		A8CF852F2B2F009600184FED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF852E2B2F009600184FED /* Item.swift */; };
 		A8CF85312B2F009700184FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CF85302B2F009700184FED /* Assets.xcassets */; };
 		A8CF85342B2F009700184FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CF85332B2F009700184FED /* Preview Assets.xcassets */; };
+		A8CF853F2B2F013000184FED /* MonteCarloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF853E2B2F013000184FED /* MonteCarloController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A837C7CE2B3062C000E0B988 /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		A86248D72B320C0700B75703 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A86248DC2B320F8C00B75703 /* CoreDataPi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPi.xcdatamodel; sourceTree = "<group>"; };
+		A86248EA2B32146900B75703 /* BestResultItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BestResultItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A86248EC2B32148F00B75703 /* BestResultItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BestResultItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8AB28152B30B75100DB97AF /* MonteCarloPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloPoint.swift; sourceTree = "<group>"; };
+		A8AB28182B30D16B00DB97AF /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		A8AB281A2B3186F900DB97AF /* MonteCarloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloView.swift; sourceTree = "<group>"; };
+		A8BE15B02B4C028F0084626B /* StatisticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		A8BE15B22B4C02B00084626B /* ExplanationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationsView.swift; sourceTree = "<group>"; };
 		A8CF85272B2F009600184FED /* PIMonteCarlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIMonteCarlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CF852A2B2F009600184FED /* PIMonteCarloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIMonteCarloApp.swift; sourceTree = "<group>"; };
 		A8CF852C2B2F009600184FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8CF852E2B2F009600184FED /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A8CF85302B2F009700184FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8CF85332B2F009700184FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8CF853E2B2F013000184FED /* MonteCarloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +54,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A83E9A082B31CB2400BE3319 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A837C7CE2B3062C000E0B988 /* PointsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A86248CD2B32071600B75703 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A86248D72B320C0700B75703 /* DataManager.swift */,
+				A86248EA2B32146900B75703 /* BestResultItem+CoreDataClass.swift */,
+				A86248EC2B32148F00B75703 /* BestResultItem+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A8AB28172B30D15200DB97AF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A8AB28182B30D16B00DB97AF /* BottomBar.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		A8CF851E2B2F009500184FED = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +99,15 @@
 		A8CF85292B2F009600184FED /* PIMonteCarlo */ = {
 			isa = PBXGroup;
 			children = (
+				A86248CD2B32071600B75703 /* CoreData */,
+				A8CF853D2B2F010800184FED /* Views */,
+				A8CF853C2B2F00FF00184FED /* Controllers */,
+				A8CF853A2B2F00CF00184FED /* Models */,
 				A8CF852A2B2F009600184FED /* PIMonteCarloApp.swift */,
 				A8CF852C2B2F009600184FED /* ContentView.swift */,
-				A8CF852E2B2F009600184FED /* Item.swift */,
 				A8CF85302B2F009700184FED /* Assets.xcassets */,
 				A8CF85322B2F009700184FED /* Preview Content */,
+				A86248DB2B320F8C00B75703 /* CoreDataPi.xcdatamodeld */,
 			);
 			path = PIMonteCarlo;
 			sourceTree = "<group>";
@@ -68,6 +118,34 @@
 				A8CF85332B2F009700184FED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8CF853A2B2F00CF00184FED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8AB28152B30B75100DB97AF /* MonteCarloPoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8CF853C2B2F00FF00184FED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF853E2B2F013000184FED /* MonteCarloController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A8CF853D2B2F010800184FED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A83E9A082B31CB2400BE3319 /* Components */,
+				A8AB28172B30D15200DB97AF /* Menu */,
+				A8BE15B02B4C028F0084626B /* StatisticsView.swift */,
+				A8AB281A2B3186F900DB97AF /* MonteCarloView.swift */,
+				A8BE15B22B4C02B00084626B /* ExplanationsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +164,8 @@
 			dependencies = (
 			);
 			name = PIMonteCarlo;
+			packageProductDependencies = (
+			);
 			productName = PIMonteCarlo;
 			productReference = A8CF85272B2F009600184FED /* PIMonteCarlo.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +194,8 @@
 				Base,
 			);
 			mainGroup = A8CF851E2B2F009500184FED;
+			packageReferences = (
+			);
 			productRefGroup = A8CF85282B2F009600184FED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,8 +223,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8CF852D2B2F009600184FED /* ContentView.swift in Sources */,
-				A8CF852F2B2F009600184FED /* Item.swift in Sources */,
+				A86248EB2B32146900B75703 /* BestResultItem+CoreDataClass.swift in Sources */,
+				A86248D82B320C0700B75703 /* DataManager.swift in Sources */,
+				A8CF853F2B2F013000184FED /* MonteCarloController.swift in Sources */,
 				A8CF852B2B2F009600184FED /* PIMonteCarloApp.swift in Sources */,
+				A8BE15B12B4C028F0084626B /* StatisticsView.swift in Sources */,
+				A8AB28192B30D16B00DB97AF /* BottomBar.swift in Sources */,
+				A837C7CF2B3062C000E0B988 /* PointsView.swift in Sources */,
+				A8BE15B32B4C02B00084626B /* ExplanationsView.swift in Sources */,
+				A8AB281B2B3186F900DB97AF /* MonteCarloView.swift in Sources */,
+				A86248ED2B32148F00B75703 /* BestResultItem+CoreDataProperties.swift in Sources */,
+				A8AB28162B30B75100DB97AF /* MonteCarloPoint.swift in Sources */,
+				A86248DD2B320F8C00B75703 /* CoreDataPi.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +440,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A86248DB2B320F8C00B75703 /* CoreDataPi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A86248DC2B320F8C00B75703 /* CoreDataPi.xcdatamodel */,
+			);
+			currentVersion = A86248DC2B320F8C00B75703 /* CoreDataPi.xcdatamodel */;
+			path = CoreDataPi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A8CF851F2B2F009500184FED /* Project object */;
 }
