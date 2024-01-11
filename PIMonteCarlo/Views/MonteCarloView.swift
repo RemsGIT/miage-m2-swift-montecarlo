@@ -11,7 +11,8 @@ struct MonteCarloView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
 
     @StateObject private var controller = MonteCarloController()
-    
+    @State private var showingCredits = false
+
 
     var body: some View {
         GeometryReader { geometry in
@@ -40,14 +41,20 @@ struct MonteCarloView: View {
                         .padding()
                     
                     Text("Approximation de π: \(controller.piApproximation)")
-                        
+                    
+                    if let bestResult = controller.getBestResultFromPI() {
+                        Text("Meilleur résultat: \(bestResult.result) avec \(bestResult.points) points")
+                            .font(.system(size: 10))
+                            .padding(.top, 10)
+                    }
+                    
+                    
                     Button(action: controller.runMonteCarloSimulation) {
                         Label("Lancer le calcul", systemImage: "bolt.fill")
-                        
                     }
                     .buttonStyle(.bordered)
-                    .padding()
-                    
+                    .padding(.top, 20)
+                
                 }
             }
         }

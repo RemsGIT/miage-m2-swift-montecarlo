@@ -20,18 +20,20 @@ struct StatisticsView: View {
             
             let isIpad = geometry.size.width > 700 && geometry.size.height > 500
             let layout = smallScreen ? AnyLayout(VStackLayout()) : AnyLayout(HStackLayout())
-                        
+
             layout() {
                 if let bestResult = controller.getBestResultFromPI() {
                     
                     if(!smallScreen) {
-                        VStack {
+                        VStack(spacing: 50) {
                             Text("Meilleur résultat: \(bestResult.result) avec \(bestResult.points) points")
+                                .font(.headline)
                             DeleteResultsButton(refreshView: $refreshView, controller: controller)
                         }
                     }
                     else {
                         Text("Meilleur résultat: \(bestResult.result) avec \(bestResult.points) points")
+                            .font(.headline)
                     }
 
                     if let bestResults = controller.getAllBestResults() {
@@ -73,7 +75,7 @@ struct StatisticsView: View {
                 
                 if(smallScreen && controller.getBestResultFromPI() != nil) {
                     DeleteResultsButton(refreshView: $refreshView, controller: controller)
-                    .padding(.top, smallScreen ? 100 : 20)
+                    .padding(.top, smallScreen ? 50 : 20)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
