@@ -33,6 +33,7 @@ struct MonteCarloView: View {
                     
                     Slider(value: $controller.totalPoints, in: 10000...100000, step: 1000) { startChanging in
                             if !startChanging {
+                                // Lance la simulation quand on relâche le slider
                                 controller.runMonteCarloSimulation()
                             }
                         }

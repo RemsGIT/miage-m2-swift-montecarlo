@@ -71,7 +71,6 @@ class MonteCarloController: ObservableObject {
                 fetchRequest.sortDescriptors = [NSSortDescriptor(key: "points", ascending: true)]
                 let bestResults = try context.fetch(fetchRequest)
                 
-                print(bestResults.map { Double($0.points) })
                 return bestResults
             } catch {
                 print("Error fetching best results: \(error.localizedDescription)")

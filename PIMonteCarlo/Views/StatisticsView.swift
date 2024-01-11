@@ -40,6 +40,8 @@ struct StatisticsView: View {
 
                         let minX = points.min() ?? 0
                         let maxX = points.max() ?? 1
+                        
+                        // Si un seul résultat, met minimum et maximum autour du résultat
                         let minY = bestResults.count > 1 ? results.min() ?? 1 : (results.min() ?? 1) - 0.1
                         let maxY = bestResults.count > 1 ? results.max() ?? 1 : (results.max() ?? 1) + 0.1
 
